@@ -1,0 +1,690 @@
+body{
+    font-family: 'Mulish', sans-serif;
+}
+/* nav section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav-title{
+    display: flex;
+    gap: 5px;
+}
+.nav-title h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.nav-title span{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+nav li{ 
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration:none;
+    color: #474747;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 45px;
+}
+#navhome{
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* hero section */
+.hero-section{
+    background-image: url('../Images/Group13.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:grid;
+    justify-content: center;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 20px;
+    text-align: center;
+}
+.hero-section h1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    z-index: 2;
+}
+.hero-section p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    z-index: 2;
+}
+.hero-section-form{
+    display: flex;
+    z-index: 2;
+}
+.where-go{
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px; 
+    margin-right: 20px;
+}
+input{
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 174px;
+    height: 52px; 
+    border-radius: 8px;
+}
+.when{
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px; 
+    margin-right: 20px;
+}
+.when option,select,form{
+    background: #FFF;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 174px;
+    height: 52px; 
+    border-radius: 8px;
+}
+.h-s-btn{
+    display: flex;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-left: 20px;
+}
+.h-s-button{
+    background: #FF5400;
+    color: #FFF;
+    border: none;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Popular Tours */
+.popular-tours{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.popular-tours .img-section{
+    background-image: url('../Images/Rectangle4.png');
+    width: 540px;
+    height: 550px; 
+    border-radius: 20px;
+}
+.popular-tours h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.popular-tours ul li p{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.popular-btn{
+    width: 174px;
+    height: 52px; 
+    border-radius: 8px;
+    background: #FF5400; 
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: none;
+}
+
+/* Choose Destianation */
+.choose-destination{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.mi{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+.m{
+    background-image: url('../Images/maldives.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 573px;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.i{
+    background-image: url('../Images/indonesia.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 573px;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.snk{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+.s{
+    background-image: url('../Images/srilanka.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 374px;
+    height: 286px; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.n{
+    background-image: url('../Images/northamerica.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 474px;
+    height: 286px; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.k{
+    background-image: url('../Images/kashmir.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 274px;
+    height: 286px; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.bb{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+.bangladesh{
+    background-image: url('../Images/bangladesh.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 473px;
+    height: 300px; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.bandarban{
+    background-image: url('../Images/bandarban.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 673px;
+    height: 300px;  
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.c-d-text h3{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.c-d-text p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+/* Why Choose Us */
+.why-choose-us{
+    margin-top: 70px;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.why-choose-us-cards{
+    border-radius: 16px;
+    padding: 32px;
+}
+.why-choose-us-cards .hotels-and-service{
+    display: flex;
+    gap: 20px;
+}
+.hotels{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 50%;
+}
+.service{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 50%;
+}
+.price{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+
+/* Deals & Discounts */
+.deals-and-discounts{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    margin-top: 70px;
+}
+.d-and-d-text{
+    text-align: center;
+}
+.d-and-d-text h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.d-and-d-text p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.d-and-d-cards{
+    display: grid;
+    margin-top: 50px;
+}
+.cardone{
+    background-image: url('../Images/Group39.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1170px;
+    height: 500px; 
+    border-radius: 16px; 
+
+}
+.cardone img{
+    margin-top: 56px;
+    margin-right: 56px;
+}
+.cardtwo{
+    background-image: url('../Images/Group40.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1170px;
+    height: 500px; 
+    border-radius: 16px; 
+    margin-top: 24px;
+}
+.cardtwo img{
+    margin-top: 56px;
+    margin-right: 45%;
+}
+.cardthree{
+    background-image: url('../Images/Group39.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1170px;
+    height: 500px; 
+    border-radius: 16px; 
+    margin-top: 24px;
+}
+.cardthree img{
+    margin-top: 56px;
+    margin-right: 56px;
+}
+.d-and-d-cards button{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 20px;
+    width: 210px;
+    height: 52px; 
+
+}
+/* Simple Place */
+.simple-place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    gap: 30px;
+}
+.s-p-text h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px; /* 150% */
+}
+.s-p-text p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.s-p-text ul{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+}
+.s-p-img{
+    width: 610px;
+    height: 424px; 
+}
+.s-p-btn{
+    width: 174px;
+    height: 52px; 
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* Newsletter */
+.newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    gap: 70px;
+}
+.news-text{
+    display: grid;
+    gap: 20px;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    padding: 25px;
+    width: 474px; 
+}
+.news-text h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.news-text p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.news-img img{
+    border-radius: 20px;
+    max-width: 672px;
+}
+.n-btn{
+    width: 474px;
+    height: 52px; 
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#newsname{
+    width: 393px;
+    height: 52px; 
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+#newsemail{
+    width: 393px;
+    height: 52px; 
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+/* Footer */
+footer{
+    margin-top: 70px;
+    background: rgba(19, 19, 24, 0.05);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 502px; 
+}
+.f-h{
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.f-f{
+    margin-bottom: 110px;
+}
+
+#ham{
+    display: none;
+}
+
+/* Responsive */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: row;
+        margin: 0px;
+        font-size: 22px;
+    }
+    nav ul{
+        display: none;
+    }
+    .nav-title{
+        font-size: 22px;
+    }
+    #ham{
+        display: inline;
+        width: 30px;
+        height: 30px; 
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    .hero-section h1{
+        font-size: 22px; 
+    }
+    .hero-section p{
+        font-size: 14px; 
+    }
+    .hero-section-form{
+        flex-direction: column;
+    }
+    .popular-tours{
+        flex-direction: column;
+    }
+    .popular-tours .img-section{
+        background-image: url('../Images/Rectangle4.png');
+        width: 100%;
+        height: 342px; 
+        border-radius: 20px;
+    }
+    .c-d-text h3{
+        font-size: 20px; 
+    }
+    .c-d-text p{
+        font-size: 14px; 
+
+    }
+    .choose-destination{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .deals-and-discounts{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
